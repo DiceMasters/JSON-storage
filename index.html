@@ -13,45 +13,41 @@
 <body>
 
 	<div class="container">
-	  <div class="row">
-	    <div id="application-main">
-	      <ul class="list-group">
-	        <list-item
-	          v-for="l in list"
-	          v-bind:key="l.id"
-	          v-bind:name="l.name"
-	          v-bind:position="l.position"
-	          v-bind:price="l.price"
-	          v-bind:rating="l.rating"
-	          v-bind:commentsCount="l.commentsCount"
-	        ></list-item>
-	      </ul>
-	    </div>
-	  </div>
+		<div class="row">
+			<div id="application-main">
+				<ul class="list-group">
+					<list-item
+						v-for="l in list"
+						v-bind:key="l.id"
+						v-bind:name="l.name"
+						v-bind:position="l.position"
+						v-bind:price="l.price"
+						v-bind:rating="l.rating"
+						v-bind:commentsCount="l.commentsCount"
+					></list-item>
+				</ul>
+			</div>
+		</div>
 	</div>
 
 	<template id="list-item">
-	  <li class="list-group-item
-	             d-flex
-	             justify-content-between
-	             align-items-center"
-	  >
-	    <div class="info-box">
-	      <span class="name">{{ name }}</span>
-	      <span class="position text-success">{{ position }}</span>
-	      <span class="price">{{ price }}</span>
-	    </div>
-	    <div class="meta-box">
-	      <div class="meta-item text-warning">
-	        <i class="far fa-star"></i>
-	        <p>{{ rating }}</p>
-	      </div>
-	      <div class="meta-item text-primary">
-	        <i class="far fa-comment"></i>
-	        <p>{{ commentsCount }}</p>
-	      </div>
-	    </div>
-	  </li>
+		<li class="list-group-item d-flex justify-content-between align-items-center">
+			<div class="info-box">
+				<span class="name">{{ name }}</span>
+				<span class="position text-success">{{ position }}</span>
+				<span class="price">{{ price }}</span>
+			</div>
+			<div class="meta-box">
+				<div class="meta-item text-warning">
+					<i class="far fa-star"></i>
+					<p>{{ rating }}</p>
+				</div>
+				<div class="meta-item text-primary">
+					<i class="far fa-comment"></i>
+					<p>{{ commentsCount }}</p>
+				</div>
+			</div>
+		</li>
 	</template>
 	
 	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
