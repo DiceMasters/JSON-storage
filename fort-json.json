@@ -1,0 +1,34 @@
+[
+	{
+		"id": 0,
+		"name": "Андреев Руслан Алексеевич",
+		"position": "Юрист",
+		"price": 2150,
+		"rating": 10,
+		"commentsCount": 36
+	},
+	{
+		"id": 1,
+		"name": "Обухов Дмитрий Борисович",
+		"position": "Юрист",
+		"price": 3600,
+		"rating": 5.2,
+		"commentsCount": 5
+	},
+	{
+		"id": 2,
+		"name": "Анна Геннадьевна",
+		"position": "Адвокат",
+		"price": 850,
+		"rating": 5.6,
+		"commentsCount": 14
+	},
+	{
+		"id": 3,
+		"name": "Архипов Юрий Юрьевич",
+		"position": "Юрист",
+		"price": 1800,
+		"rating": 7.8,
+		"commentsCount": 11
+	},
+]
