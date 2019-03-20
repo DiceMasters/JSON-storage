@@ -5,7 +5,7 @@
 		"position": "Юрист",
 		"price": 2150,
 		"rating": 10,
-		"commentscount": 36
+		"comments": 36
 	},
 	{
 		"id": 1,
@@ -13,7 +13,7 @@
 		"position": "Юрист",
 		"price": 3600,
 		"rating": 5.2,
-		"commentscount": 5
+		"comments": 5
 	},
 	{
 		"id": 2,
@@ -21,7 +21,7 @@
 		"position": "Адвокат",
 		"price": 850,
 		"rating": 5.6,
-		"commentscount": 14
+		"comments": 14
 	},
 	{
 		"id": 3,
@@ -29,6 +29,6 @@
 		"position": "Юрист",
 		"price": 1800,
 		"rating": 7.8,
-		"commentscount": 11
+		"comments": 11
 	}
 ]
