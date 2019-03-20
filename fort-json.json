@@ -1,6 +1,6 @@
 [
 	{
-		"id": 0,
+		"primary_key": 0,
 		"name": "Андреев Руслан Алексеевич",
 		"position": "Юрист",
 		"price": 2150,
@@ -8,7 +8,7 @@
 		"comments": 36
 	},
 	{
-		"id": 1,
+		"primary_key": 1,
 		"name": "Обухов Дмитрий Борисович",
 		"position": "Юрист",
 		"price": 3600,
@@ -16,7 +16,7 @@
 		"comments": 5
 	},
 	{
-		"id": 2,
+		"primary_key": 2,
 		"name": "Анна Геннадьевна",
 		"position": "Адвокат",
 		"price": 850,
@@ -24,7 +24,7 @@
 		"comments": 14
 	},
 	{
-		"id": 3,
+		"primary_key": 3,
 		"name": "Архипов Юрий Юрьевич",
 		"position": "Юрист",
 		"price": 1800,
