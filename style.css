@@ -1,9 +1,15 @@
+#application-main{
+  width: 100%;
+}
+
 .info-box {
   width: 80%;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
+
+.info-box > span { width: 30%; }
 
 .info-box > span.name {
   font-family: 'Roboto', sans-serif;
