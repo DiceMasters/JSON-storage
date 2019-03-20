@@ -1,7 +1,7 @@
 const dataURL = 'https://raw.githubusercontent.com/DiceMasters/JSON-storage/master/fort-json.json'
 
 Vue.component('list-item', {
-	props: ['name', 'position', 'price', 'rating', 'commentsCount'],
+	props: ['name', 'position', 'price', 'rating', 'commentscount'],
 	template: '#list-item'
 })
 
