@@ -12,13 +12,14 @@
 </head>
 <body>
 
-	<div class="container">
+	<div class="container ">
 		<div class="row">
 			<div id="application-main">
 				<ul class="list-group">
 					<list-item
 						v-for="l in list"
-						v-bind:key="l.id"
+						v-bind:key="l.primary_key"
+						v-bind:primary_key="l.primary_key"
 						v-bind:name="l.name"
 						v-bind:position="l.position"
 						v-bind:price="l.price"
@@ -31,23 +32,25 @@
 	</div>
 
 	<template id="list-item">
-		<li class="list-group-item d-flex justify-content-between align-items-center">
-			<div class="info-box">
-				<span class="name">{{ name }}</span>
-				<span class="position text-success">{{ position }}</span>
-				<span class="price">{{ price }} Руб./час</span>
-			</div>
-			<div class="meta-box">
-				<div class="meta-item text-warning">
-					<i class="far fa-star"></i>
-					<p>{{ rating }}</p>
-				</div>
-				<div class="meta-item text-primary">
-					<i class="far fa-comment"></i>
-					<p>{{ comments }}</p>
-				</div>
-			</div>
-		</li>
+	  <div class="list-item-wrap">
+	    <li class="list-group-item d-flex justify-content-between align-items-center" v-bind:list-id="primary_key">
+	      <div class="info-box">
+	        <span class="name">{{ name }}</span>
+	        <span class="position text-success">{{ position }}</span>
+	        <span class="price">{{ price }} Руб./час</span>
+	      </div>
+	      <div class="meta-box">
+	        <div class="meta-item text-warning">
+	          <i class="far fa-star"></i>
+	          <p>{{ rating }}</p>
+	        </div>
+	        <div class="meta-item text-primary">
+	          <i class="far fa-comment"></i>
+	          <p>{{ comments }}</p>
+	        </div>
+	      </div>
+	    </li>
+	  </div>
 	</template>
 	
 	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>

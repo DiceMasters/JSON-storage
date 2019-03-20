@@ -1,6 +1,55 @@
-#application-main{
+#application-main {
   width: 100%;
   margin: 50px 0;
+}
+
+.list-item-wrap {
+  background-color: #dc3545;
+  position: relative;
+}
+
+.list-item-wrap::after {
+  content: '\f2ed';
+  font-family: "Font Awesome 5 Free";
+  font-size: 16px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+.list-item-wrap::before {
+  content: '\f2ed';
+  font-family: "Font Awesome 5 Free";
+  font-size: 16px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+}
+
+.list-item-wrap > li {
+  background-color: white;
+  border-radius: 0 !important;
+  border-bottom-width: 0;
+}
+
+.list-item-wrap:last-child > li{
+  border-bottom-width: 1px;
+}
+
+.list-item-wrap:first-child,
+.list-item-wrap:first-child > li {
+  border-top-left-radius: 0.25rem !important;
+  border-top-right-radius: 0.25rem !important;
+}
+
+.list-item-wrap:last-child,
+.list-item-wrap:last-child > li {
+  border-bottom-left-radius: 0.25rem !important;
+  border-bottom-right-radius: 0.25rem !important;
 }
 
 .info-box {
@@ -56,4 +105,36 @@
   font-size: 10px;
   color: inherit;
   margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .info-box {
+    width: 75%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .info-box > span { width: 100%; }
+
+  .info-box > span.name {
+    font-size: 12px;
+  }
+
+  .info-box > span.position {
+    font-size: 10px;
+  }
+
+  .info-box > span.price {
+    font-size: 14px;
+  }
+
+  .meta-box {
+    width: 25%;
+    flex-direction: column;
+  }
+
+  .meta-box > .meta-item > i {
+    font-size: 12px;
+    margin-bottom: 3px;
+  }
 }
