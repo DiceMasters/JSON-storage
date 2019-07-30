@@ -1,0 +1,32 @@
+[
+	{
+		"id": 0,
+		"name": "Финансист",
+		"author": "Теодор Драйзер",
+		"pages": "640",
+		"publisher": "Эксмо",
+		"year": "1912",
+		"printing": "2019",
+		"photo": "https://cdn1.ozone.ru/multimedia/c1200/1026362869.jpg"
+	},
+	{
+		"id": 1,
+		"name": "Титан",
+		"author": "Теодор Драйзер",
+		"pages": "672",
+		"publisher": "Эксмо",
+		"year": "1914",
+		"printing": "2017",
+		"photo": "https://cdn1.ozone.ru/multimedia/c1200/1020615082.jpg"
+	},
+	{
+		"id": 2,
+		"name": "Стоик",
+		"author": "Теодор Драйзер",
+		"pages": "544",
+		"publisher": "Эксмо",
+		"year": "1945",
+		"printing": "2017",
+		"photo": "https://cdn1.ozone.ru/multimedia/c1200/1017255854.jpg"
+	}
+]
