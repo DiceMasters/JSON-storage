@@ -30,5 +30,133 @@
 		"price": 1800,
 		"rating": 7.8,
 		"comments": 11
+	},
+	{
+		"primary_key": 0,
+		"name": "Андреев Руслан Алексеевич",
+		"position": "Юрист",
+		"price": 2150,
+		"rating": 10,
+		"comments": 36
+	},
+	{
+		"primary_key": 1,
+		"name": "Обухов Дмитрий Борисович",
+		"position": "Юрист",
+		"price": 3600,
+		"rating": 5.2,
+		"comments": 5
+	},
+	{
+		"primary_key": 2,
+		"name": "Анна Геннадьевна",
+		"position": "Адвокат",
+		"price": 850,
+		"rating": 5.6,
+		"comments": 14
+	},
+	{
+		"primary_key": 3,
+		"name": "Архипов Юрий Юрьевич",
+		"position": "Юрист",
+		"price": 1800,
+		"rating": 7.8,
+		"comments": 11
+	},
+	{
+		"primary_key": 0,
+		"name": "Андреев Руслан Алексеевич",
+		"position": "Юрист",
+		"price": 2150,
+		"rating": 10,
+		"comments": 36
+	},
+	{
+		"primary_key": 1,
+		"name": "Обухов Дмитрий Борисович",
+		"position": "Юрист",
+		"price": 3600,
+		"rating": 5.2,
+		"comments": 5
+	},
+	{
+		"primary_key": 2,
+		"name": "Анна Геннадьевна",
+		"position": "Адвокат",
+		"price": 850,
+		"rating": 5.6,
+		"comments": 14
+	},
+	{
+		"primary_key": 3,
+		"name": "Архипов Юрий Юрьевич",
+		"position": "Юрист",
+		"price": 1800,
+		"rating": 7.8,
+		"comments": 11
+	},
+	{
+		"primary_key": 0,
+		"name": "Андреев Руслан Алексеевич",
+		"position": "Юрист",
+		"price": 2150,
+		"rating": 10,
+		"comments": 36
+	},
+	{
+		"primary_key": 1,
+		"name": "Обухов Дмитрий Борисович",
+		"position": "Юрист",
+		"price": 3600,
+		"rating": 5.2,
+		"comments": 5
+	},
+	{
+		"primary_key": 2,
+		"name": "Анна Геннадьевна",
+		"position": "Адвокат",
+		"price": 850,
+		"rating": 5.6,
+		"comments": 14
+	},
+	{
+		"primary_key": 3,
+		"name": "Архипов Юрий Юрьевич",
+		"position": "Юрист",
+		"price": 1800,
+		"rating": 7.8,
+		"comments": 11
+	},
+	{
+		"primary_key": 0,
+		"name": "Андреев Руслан Алексеевич",
+		"position": "Юрист",
+		"price": 2150,
+		"rating": 10,
+		"comments": 36
+	},
+	{
+		"primary_key": 1,
+		"name": "Обухов Дмитрий Борисович",
+		"position": "Юрист",
+		"price": 3600,
+		"rating": 5.2,
+		"comments": 5
+	},
+	{
+		"primary_key": 2,
+		"name": "Анна Геннадьевна",
+		"position": "Адвокат",
+		"price": 850,
+		"rating": 5.6,
+		"comments": 14
+	},
+	{
+		"primary_key": 3,
+		"name": "Архипов Юрий Юрьевич",
+		"position": "Юрист",
+		"price": 1800,
+		"rating": 7.8,
+		"comments": 11
 	}
 ]
